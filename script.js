@@ -29,3 +29,4 @@ function operate(op, a, b){ //takes operator and two numbers
             return "ERROR: INVALID OPERATOR";   // error if operator is not one of the four
     }
 }
+
