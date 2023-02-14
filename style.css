@@ -37,9 +37,15 @@ body {
 
 #screen {
     height: 150px;
-    width: 350px;
+    width: 270px;
     border: 1px solid grey;
     margin: 15px;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 40px;
+    font-size: 40px;
 }
 
 .buttons {
