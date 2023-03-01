@@ -7,6 +7,7 @@ html, body {
 body {
     display: flex;
     justify-content: center;
+    background-color: grey;
 }
 
 #Container {
@@ -24,6 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: whitesmoke;
 }
 
 .calc {
@@ -31,14 +33,15 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid black;
     padding: 15px;
+    background-color: #28282a;
+    border: 1px solid #4a4a4e;
 }
 
 #screen {
     height: 150px;
     width: 270px;
-    border: 1px solid grey;
+    border: 1px solid #b5b5c0;
     margin: 15px;
     background-color: rgb(221, 221, 221);
     display: flex;
@@ -46,6 +49,9 @@ body {
     align-items: center;
     padding: 0 40px;
     font-size: 40px;
+    background-color: #3c3c3e;
+    color: #b5b5c0;
+    word-break: break-word;
 }
 
 .buttons {
@@ -71,6 +77,9 @@ button {
     height: 45px;
     margin: 3px;
     font-size: 18px;
+    background-color: #69698f;
+    color: #c8c8d8;
+    border: 1px solid #c8c8d8;
 }
 
 .wider > button {
